@@ -1,20 +1,64 @@
+body{
+    background-color: rgb(193, 219, 224);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 .input{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
+
 }
 input{
     width: 200px;
-    height: 24px;
+    height: 28px;
     margin: 8px;
     outline: none;
     flex-basis: 200px;
+    
+    
 }
-.button{
+.btn-population{
     display: flex;
     justify-content: center;
 }
 .btn-population{
     border: none;
     padding: 12px;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #f43d67;
+    border: none;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #f43d67}
+  
+  .button:active {
+    background-color: #f43d67;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+canvas{
+    color: white;
+    display: flex;
+    flex-basis: 400px;
+    max-width: 70%;
+
+
+}
+.charts{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }

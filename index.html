@@ -12,14 +12,15 @@
 <body>
     <div>
         <div class="input">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
+            <input type="number" placeholder="Age" max="100" class="age">
+            <input type="number" placeholder="Year" max="2100" class="year">
+            <input type="text" placeholder="Country" class="country">
         </div>
-        <div class="button">
-            <button class="btn-population">Get Population</button>
+        <div class="btn-population">
+            <button class="button" onclick="getPopulation()">Get Population</button>
         </div>
-        <div>
+        <div class="charts">
+                <canvas id="Chart"></canvas>            
                 <canvas id="myChart"></canvas>
                 <script src="script.js"></script>
         </div>
